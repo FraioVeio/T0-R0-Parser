@@ -4,4 +4,4 @@ project (test)
 
 include_directories("${PROJECT_BINARY_DIR}")
 
-add_executable(test.c)
+add_executable(test test.c)
